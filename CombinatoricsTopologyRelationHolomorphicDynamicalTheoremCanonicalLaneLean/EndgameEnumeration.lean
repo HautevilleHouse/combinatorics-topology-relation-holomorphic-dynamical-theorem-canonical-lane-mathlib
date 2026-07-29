@@ -1,0 +1,20 @@
+import canonicalLaneMathlib.AdmissibleClass
+import CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean.DynamicGraphComplex
+import CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean.HolomorphicDynamicalSystem
+import CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean.CombinatorialTopologyDuality
+import CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean.RenormalizationOperator
+import CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean.SurgeryTheory
+
+namespace HautevilleHouse
+namespace CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean
+
+structure EndgameEnumeration where
+  dynamicGraphClosed : Prop
+  entropyClosed : Prop
+  dualityClosed : Prop
+  renormalizationClosed : Prop
+  surgeryClosed : Prop
+  allClosed : dynamicGraphClosed ∧ entropyClosed ∧ dualityClosed ∧ renormalizationClosed ∧ surgeryClosed
+
+end CombinatoricsTopologyRelationHolomorphicDynamicalTheoremCanonicalLaneLean
+end HautevilleHouse
